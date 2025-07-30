@@ -18,7 +18,7 @@
         {
             "displayName": "Demo UI Scene",
             "description": "Example scene with UI ChemiNova elements",
-            "path": "Samples~/DemoScene"
+            "path": "Samples/DemoScene"
         }
     ]
 }
