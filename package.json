@@ -1,0 +1,16 @@
+{
+    "name": "com.cheminova.ui",
+    "version": "0.1",
+    "displayName": "ChemiNovaUI",
+    "description": "User Interface of ChemiNova applications.",
+    "unity": "6000.0",
+    "dependencies":
+    {
+        "com.unity.textmeshpro": "3.0.6",
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+    },
+    "author":
+    {
+        "name": "IRTIC - UV"
+    }
+}

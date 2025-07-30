@@ -1,0 +1,28 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/CheminovaUI/Resources/UI/USS/login/login.uss?fileID=7433441132597879392&amp;guid=12ddf879e95fb5f46b6939efb2349dc2&amp;type=3#login" />
+    <engine:VisualElement name="Background" style="flex-grow: 1; width: 100%; height: 100%; flex-shrink: 1; flex-wrap: nowrap;">
+        <engine:VisualElement name="header" class="header" style="flex-direction: row; align-items: auto; justify-content: flex-start; align-self: flex-end; top: 0; left: auto; flex-shrink: 1; flex-grow: 1; height: 102px; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;">
+            <engine:VisualElement name="container-logo" class="left-section" style="flex-direction: row; margin-left: 10px; align-self: center; align-items: center; align-content: flex-start; height: 100%;">
+                <engine:Image name="image-logo" class="logo" style="height: 100%; width: 100px; background-image: resource(&apos;UI/Icons/logo/05_ANAGRAMA_Cheminova_NegroColor&apos;);" />
+                <engine:Label text="ChemiInspection" name="label-logo" class="register-text" style="font-size: 31px; -unity-font-style: bold;" />
+            </engine:VisualElement>
+            <engine:VisualElement name="container-register" class="right-section" style="flex-direction: row; align-content: flex-end; align-items: center; justify-content: flex-end; align-self: auto; padding-left: 1761px; right: 0;">
+                <engine:Label text="Don’t have an account? " name="label-register" class="register-text" style="margin-right: 0; height: 33px; width: 223px;" />
+                <engine:Button text="Register now" name="button-register" class="primary-link" style="padding-left: -6px; border-top-color: rgba(149, 149, 149, 0); border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); color: rgb(0, 0, 0); background-color: rgba(188, 188, 188, 0); font-size: 20px; -unity-font-style: normal; border-bottom-width: 0.9px; border-top-width: 5px; padding-top: 9px;" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement name="main-content" class="container" style="border-top-width: 1px; font-size: 19px; border-bottom-width: 0; justify-content: center; padding-top: 200px; margin-left: 0; top: auto; flex-grow: 1; flex-shrink: 1;">
+            <engine:Label text="Welcome back" name="label-welcome" class="bold" style="-unity-font-style: bold; font-size: 80px;" />
+            <engine:Label text="Enter your details to sign in to your account" name="label-description" class="regular" style="font-size: 40px; margin-bottom: 60px;" />
+            <engine:VisualElement name="interactive-elements" style="align-items: stretch; justify-content: space-between; width: 100%; min-width: auto; max-width: 1500px;">
+                <engine:Label text="Username" name="label-username" style="-unity-font-style: bold; font-size: 30px;" />
+                <engine:TextField name="username-field" style="width: auto; height: 86px; font-size: 30px; border-bottom-width: 2px; border-left-width: 2px; border-top-width: 2px; border-right-width: 2px; border-left-color: rgb(140, 140, 140); border-right-color: rgb(140, 140, 140); border-top-color: rgb(140, 140, 140); border-bottom-color: rgb(140, 140, 140); -unity-background-image-tint-color: rgba(255, 255, 255, 0); background-color: rgba(0, 0, 0, 0);" />
+                <engine:Label text="Password" name="label-password" style="-unity-font-style: bold; font-size: 30px;" />
+                <engine:TextField name="password-field" isPasswordField="true" password="true" style="height: 86px; margin-bottom: 5px; font-size: 30px; border-left-color: rgb(140, 140, 140); border-right-color: rgb(140, 140, 140); border-top-color: rgb(140, 140, 140); border-bottom-color: rgb(140, 140, 140); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px;" />
+                <engine:Label name="password-error" text="Incorrect password or email" style="color: red; font-size: 20px; margin-bottom: 19px;" />
+                <engine:Button text="Forgot password?" name="button-forgot-password" class="forgot-password" style="margin-bottom: 108px; color: rgb(0, 0, 0); background-color: rgba(188, 188, 188, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-left-color: rgba(149, 149, 149, 0); font-size: 25px; padding-left: -8px;" />
+                <engine:Button text="Continue" name="continue-button" class="continue-button" style="width: auto; height: 109px;" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

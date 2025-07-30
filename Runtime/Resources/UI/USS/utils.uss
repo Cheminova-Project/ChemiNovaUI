@@ -1,0 +1,23 @@
+/* Estilo base del item */
+.interactive-item {
+    background-color: #f0f0f0;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
+/* Cambio al pasar el cursor */
+.interactive-item:hover {
+    border-width: 1px;
+    border-color: rgba(0,0,0,0.5);
+    border-style: solid;
+}
+
+.transparent-button
+{
+    transition: scale 0.15s ease-in-out;
+}
+
+.transparent-button:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
