@@ -1,7 +1,7 @@
 {
     "name": "com.cheminova.ui",
     "version": "1.0.0",
-    "displayName": "ChemiNovaUI",
+    "displayName": "ChemiNova UI",
     "description": "User Interface of ChemiNova applications.",
     "unity": "6000.0",
     "dependencies":
@@ -12,5 +12,13 @@
     "author":
     {
         "name": "IRTIC - UV"
-    }
+    },
+    "samples":
+    [
+        {
+            "displayName": "Demo UI Scene",
+            "description": "Example scene with UI ChemiNova elements",
+            "path": "Samples~/DemoScene"
+        }
+    ]
 }
